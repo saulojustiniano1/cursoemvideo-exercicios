@@ -1,7 +1,13 @@
-# cursoemvideo-python-exercicios
+<h1 align="center">cursoemvideo-python-exercicios<h1>
 
-🔗Lista de exercícios de Python do Curso em Vídeo
+<section align="center">
+  <img src=".github/preview.png">
+</section>
 
-- Mundo 1 ✔️
+###
+
+<p align="center"><strong>🔗Repositório dos execícios!</strong></p>
+
+- Mundo 1 ✅
 - Mundo 2 - Em progresso
 - Mundo 3
