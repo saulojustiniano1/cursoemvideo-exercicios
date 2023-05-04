@@ -3,10 +3,10 @@
 print('Gerador de PA')
 print('-=' * 10)
 
-primeira_termo = int(input('Primeiro termo: '))
+primeiro_termo = int(input('Primeiro termo: '))
 razao = int(input('Razão: '))
 
-termo = primeira_termo
+termo = primeiro_termo
 contador = 1
 
 while contador <= 10:
