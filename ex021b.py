@@ -1,3 +1,3 @@
-import playsound
+# from playsound import playsound
 
-playsound.playsound('./ex021.mp3')
+# playsound('./ex021.mp3')

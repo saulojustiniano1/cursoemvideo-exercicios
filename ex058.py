@@ -11,13 +11,13 @@ Será que você consegue adivinhar qual foi?
 jogador = int(input('Qual é seu palpite? '))
 
 while jogador != computador:
-  contador += 1
+    contador += 1
 
-  if computador > jogador:
-    print('Mais... Tente mais uma vez')
-  else:
-    print('Menos... Tente mais uma vez')
+    if computador > jogador:
+        print('Mais... Tente mais uma vez')
+    else:
+        print('Menos... Tente mais uma vez')
 
-  jogador = int(input('Qual é seu palpite? '))
+    jogador = int(input('Qual é seu palpite? '))
 
 print(f'Acertou com {contador} tentativas. Parabéns!')

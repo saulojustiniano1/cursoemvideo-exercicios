@@ -7,8 +7,8 @@ factorial = 1
 print(f'Calculando {numero}! = ', end='')
 
 for contador in range(numero, 0, -1):
-  print(f'{contador}', end='')
-  print(' x ' if contador > 1 else ' = ', end='')
-  factorial = factorial * contador
+    print(f'{contador}', end='')
+    print(' x ' if contador > 1 else ' = ', end='')
+    factorial = factorial * contador
 
 print(f'{factorial}', end='')

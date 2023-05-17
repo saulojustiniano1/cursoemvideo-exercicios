@@ -1,4 +1,4 @@
-from math import sin, cos, tan, radians
+from math import cos, radians, sin, tan
 
 angulo = float(input('Digite o ângulo que você deseja: '))
 

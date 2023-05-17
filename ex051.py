@@ -8,6 +8,6 @@ razao = int(input('Razão: '))
 decimo_termo = primeira_termo + (10 - 1) * razao
 
 for c in range(primeira_termo, decimo_termo + razao, razao):
-  print(f'{c}', end=' → ')
+    print(f'{c}', end=' → ')
 
 print('ACABOU')

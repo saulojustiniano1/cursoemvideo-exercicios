@@ -12,17 +12,17 @@ total_de_termos = 0
 termos_mais = 10
 
 while termos_mais != 0:
-  total_de_termos = total_de_termos + termos_mais
+    total_de_termos = total_de_termos + termos_mais
 
-  while contador <= total_de_termos:
-    print(f'{termo} -> ', end='')
-    termo = termo + razao
-    contador = contador + 1 
+    while contador <= total_de_termos:
+        print(f'{termo} -> ', end='')
+        termo = termo + razao
+        contador = contador + 1
 
-  print('PAUSA')
+    print('PAUSA')
 
-  termos_mais = int(input('Quantos termos você quer mostrar a mais? '))
+    termos_mais = int(input('Quantos termos você quer mostrar a mais? '))
 
-  print(f'Progressão finalizada com {total_de_termos} termos mostrados.')
-  
+    print(f'Progressão finalizada com {total_de_termos} termos mostrados.')
+
 print('FIM')

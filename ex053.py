@@ -7,11 +7,11 @@ juncao = ''.join(palavras)
 inverso = ''
 
 for letra in range(len(juncao) - 1, -1, -1):
-  inverso = inverso + juncao[letra]
+    inverso = inverso + juncao[letra]
 
 print(f'O inverso de {juncao} é {inverso}')
 
 if inverso == juncao:
-  print('Temos um palíndromo!')
+    print('Temos um palíndromo!')
 else:
-  print('A frase digitada não é um palíndromo!')
+    print('A frase digitada não é um palíndromo!')
